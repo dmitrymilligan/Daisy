@@ -1,0 +1,192 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+	background: url(../img/header-bg.png) no-repeat;
+	width: 1260px;
+	height: 765px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	width: 100%;
+	height: 90px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 30px 0 0 152px;
+}
+
+.logo h1 {
+	color: white;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.logo img {
+	vertical-align: middle;
+}
+
+li {
+	float: left;
+	list-style: none;
+}
+
+.nav li {
+	margin: 25px;
+}
+.nav a {
+font-size: 16px;
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+padding-bottom: 4px;
+}
+
+.nav a:hover {
+color: red;
+border-bottom: 5px solid red;	
+}
+
+.nav ul {
+	display: inline-block;
+}
+
+.nav {
+	display: inline-block;
+    float: right;
+    margin: 17px 89px 0 0;
+}
+
+.slogan-text span {
+	font-size: 51px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.slogan {
+	margin-top: 176px;
+    text-align: center;
+}
+
+.slogan-text span:first-child  {
+color: red;
+}
+
+.slogan-text span:nth-of-type(2) {
+color: white;
+}
+
+.under-slogan {
+	color: white;
+	font-size: 24px;
+	margin: 25px;
+}
+
+.want-clients {
+	background: none;
+    padding: 21px 43px;
+    border-radius: 7px;
+    border: 3px solid #fc635e;
+    color: #fc635e;
+    font-size: 24px;
+    cursor: pointer;
+    float: left;
+}
+
+.want-clients:hover {
+color: white;
+border-color: white;
+}
+
+.button {
+	width: 369px;
+	margin: 0 auto;
+}
+
+.mouse {
+	margin-top: 21px;
+	-webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+	-ms-transition: 1s ease;
+	-o-transition: 1s ease;
+	transition: 1s ease;
+}
+
+.receive {
+	height: 576px;
+	width: 1260px;
+}
+
+.slide-arrow {
+	margin-top: 310px;
+    margin-left: -225px;
+    position: absolute;
+}
+
+.title {
+	width: 525px;
+	margin: 65px auto;
+}
+
+.headline {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.gray {
+	color: #868686;
+}
+
+.red {
+	color: #fc635e;
+}
+
+.special {
+	font-size: 20px;
+    font-weight: normal;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.items {
+	width: 1055px;
+	min-height: 250px;
+	margin: 0 auto;
+}
+
+.divider {
+	color: #868686;
+	width: 340px;
+}
+
+.item-wrap {
+	height: 250px;
+	width: 208px;
+	text-align: center;
+	margin: 0 20px;
+}
+
+.item-title {
+	color: #868686;
+	font-size: 20px;
+	margin: 14px 0 7px;
+}
+.divider-mini {
+	width: 56px;
+	margin-bottom: 20px;
+}
+
+.item-wrap article {
+	color: #868686;
+}
